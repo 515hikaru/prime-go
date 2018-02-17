@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/515hikaru/eratosthenes-go"
+	"github.com/515hikaru/eratosthenes-go/eratosthenes"
 )
 
 func main() {

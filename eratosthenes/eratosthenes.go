@@ -14,10 +14,7 @@ func PrimeSeqence(length int) []int {
 		if flgs[i] == 0 {
 			continue
 		}
-		for j := i; j < length; j += i {
-			if j == i {
-				continue
-			}
+		for j := i * 2; j < length; j += i {
 			flgs[j] = 0
 		}
 	}
